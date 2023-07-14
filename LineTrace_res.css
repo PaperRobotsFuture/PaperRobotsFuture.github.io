@@ -9,6 +9,7 @@
 
     .logo{
         width:130px;
+        background-color: red;
     }
     .texts{
         width:80%;
@@ -26,12 +27,34 @@
     .words p{
         font-size:12px;
     }
+    .cont h2{
+        font-size:22px;
+    }
+    .ph{
+        width: 50%;
+    }
+    .cont p{
+        font-size:15px;
+    }
+    .cont2 h2{
+        font-size:22px;
+    }
+    .cont2 p{
+        font-size:15px;
+    }
+    .des{
+        width: 33%;
+    }
+    .cont2 h3{
+        font-size:18px;
+    }
 }
 
 @media(max-width:700px){
 
     .logo{
         width:120px;
+        background-color: blue;
     }
     .texts{
         width:80%;
@@ -49,12 +72,31 @@
     .words p{
         font-size:12px;
     }
+    .cont h2{
+        font-size:20px;
+    }
+    .cont p{
+        font-size:14px;
+    }
+    .cont2 h2{
+        font-size:20px;
+    }
+    .cont2 p{
+        font-size:14px;
+    }
+    .des{
+        width: 50%;
+    }
+    .cont2 h3{
+        font-size:16px;
+    }
 }
 
 @media(max-width:600px){
 
     .logo{
         width:110px;
+        background-color: green;
     }
     .texts{
         width:75%;
@@ -80,13 +122,29 @@
     .b2 a{
         font-size:14px;
     }
-
+    .b3 a{
+        font-size:14px;
+    }
+    .cont h2{
+        font-size:18px;
+    }
+    .cont p{
+        font-size:13px;
+    }
+    .cont2 p{
+        font-size:13px;
+    }
+    .cont2 h3{
+        font-size:15px;
+    }
+    
 }
 
     @media(max-width:500px){
 
         .logo{
             width:85px;
+            background-color: yellow;
         }
         .texts{
             width:75%;
@@ -112,7 +170,27 @@
         .b2 a{
             font-size:14px;
         }
-    
+        .b3 a{
+            font-size:14px;
+        }
+        .cont h2{
+            font-size:16px;
+        }
+        .ph{
+            width: 100%;
+        }
+        .cont p{
+            font-size:12px;
+        }
+        .cont2 h2{
+            font-size:18px;
+        }
+        .cont2 p{
+            font-size:12px;
+        }
+        .cont2 h3{
+            font-size:14px;
+        }
 }
 
 
@@ -120,6 +198,7 @@
 
     .logo{
         width:80px;
+        background-color: orange;
     }
     .texts{
         width:70%;
@@ -144,6 +223,28 @@
 
     .b2 a{
         font-size:14px;
+    }
+    .b3 a{
+        font-size:14px;
+    }
+    .cont h2{
+        font-size:14px;
+    }
+    .cont p{
+        font-size:11px;
+    }
+    .cont2 h2{
+        font-size:16px;
+    }
+    .cont2 p{
+        font-size:11px;
+    }
+
+    .des{
+        width: 100%;
+    }
+    .cont2 h3{
+        font-size:13px;
     }
 
 }
