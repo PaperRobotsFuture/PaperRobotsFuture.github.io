@@ -1,0 +1,155 @@
+*{
+    box-sizing: border-box;
+    max-width:1400px;
+    width:100%;
+    margin:auto;
+}
+header{
+    padding-top:10px;
+}
+.logo{
+    width: 140px; 
+    float:left;
+}
+.texts{
+    float:left;
+    width:90%;
+    border-bottom: 1px solid black;
+    padding-top:40px;
+    padding-left:10px;
+    padding-right:10px;
+}
+.text{
+    width:25%;
+    float:left;
+    padding-top: 26px;
+    padding-bottom: 26px;
+    text-align: center;
+    background-color:rgba(0, 0, 0, 0);
+    transition: background-color 0.5s;
+}
+.text:hover{
+    background-color: rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+.text:active{
+    background-color: rgba(0, 0, 0, 0.6);
+    cursor: pointer;
+}
+
+.text a{
+    text-decoration: none;
+    color:black;
+    font-size: 18px;
+}
+
+.clear{
+    clear:left;
+}
+
+
+
+.contents{
+    float:left;
+    margin-top:100px;
+    text-align: center;
+    width: 100%;
+}
+.contents h1{
+    color:rgb(55, 55, 55);
+    font-weight: normal;
+    font-size:40px
+}
+.english{
+    color:rgb(55, 55, 55);
+    font-size:18px;
+    font-weight:bold;
+    margin-top: 0px;
+    margin-bottom:75px;
+    letter-spacing: 0.1em;
+}
+.words p{
+    color:rgb(55, 55, 55);
+    font-size:14px;
+    font-weight:bold;
+    letter-spacing: 0.12em;
+}
+.above{
+    margin-bottom:0px;
+    width:85%;
+}
+.bottom{
+    margin-top:0px;
+    margin-bottom:35px;
+    width:85%;
+}
+.b1 a {
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    color:rgb(55, 55, 55);
+    letter-spacing: 0.12em;
+    margin-top:20px;
+    margin-bottom:30px;
+    font-weight:bold;
+    padding-left:10px;
+    width:180px;
+}
+
+
+
+.b1 ::after {
+    position: absolute;
+    left: 0;
+    content: '';
+    width: 100%;
+    height: 1.5px;
+    background: #000000;
+    bottom: -1px;
+    transform: scale(0, 1);
+    transform-origin: right top; /*変形（アンダーラインの伸長）の原点がaタグ（各メニュー）の右端*/
+    transition: transform 0.3s;  /*変形の時間*/
+    }
+    
+    .b1 :hover::after {
+    transform: scale(1, 1);     /*ホバー後、x軸方向に1（相対値）伸長*/
+    transform-origin: left top; /*左から右に向かう*/
+    }
+    
+    .b2 a {
+        position: relative;
+        display: inline-block;
+        text-decoration: none;
+        color:rgb(55, 55, 55);
+        letter-spacing: 0.12em;
+        margin-bottom:120px;
+        font-weight:bold;
+        padding-left:10px;
+        width:210px;
+    }
+    
+    
+    
+    .b2 ::after {
+        position: absolute;
+        left: 0;
+        content: '';
+        width: 100%;
+        height: 1.5px;
+        background: #000000;
+        bottom: -1px;
+        transform: scale(0, 1);
+        transform-origin: right top; /*変形（アンダーラインの伸長）の原点がaタグ（各メニュー）の右端*/
+        transition: transform 0.3s;  /*変形の時間*/
+        }
+        
+        .b2 :hover::after {
+        transform: scale(1, 1);     /*ホバー後、x軸方向に1（相対値）伸長*/
+        transform-origin: left top; /*左から右に向かう*/
+        }
+
+
+
+span{
+    color:rgb(0, 0, 0);
+}
