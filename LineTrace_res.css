@@ -10,13 +10,14 @@
     .logo{
         width:130px;
         background-color: red;
+        height:75px;
     }
     .texts{
         width:80%;
-        padding-top:30px;
     }
     .text a{
         font-size:17px;
+        padding-top:28px;
     }
     .contents h1{
         font-size:38px
@@ -58,10 +59,11 @@
     }
     .texts{
         width:80%;
-        padding-top:20px;
     }
     .text a{
         font-size:16px;
+        padding-top:20px;
+        height:65px;
     }
     .contents h1{
         font-size:36px
@@ -152,6 +154,7 @@
         }
         .text a{
             font-size:14px;
+            height:60px;
         }
         .contents h1{
             font-size:32px
@@ -206,6 +209,8 @@
     }
     .text a{
         font-size:14px;
+        height:55px;
+        padding-top:15px;
     }
     .contents h1{
         font-size:32px
