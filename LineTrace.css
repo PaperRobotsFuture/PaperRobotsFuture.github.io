@@ -170,6 +170,7 @@ header{
     flex-wrap:wrap;
     width:95%;
     margin-bottom:40px;
+    border-bottom: 1px solid white;
 }
 
 .des{
@@ -185,6 +186,11 @@ header{
     font-size:19px;
     margin-bottom:5px;
     width:90%;
+}
+
+.cont2 video{
+    width:60%;
+    margin-bottom:10px;
 }
 
 

@@ -49,6 +49,11 @@
     .cont2 h3{
         font-size:18px;
     }
+
+    .cont2 video{
+        width:80%;
+        margin-bottom:10px;
+    }
 }
 
 @media(max-width:700px){
@@ -92,6 +97,7 @@
     .cont2 h3{
         font-size:16px;
     }
+    
 }
 
 @media(max-width:620px){
@@ -138,6 +144,11 @@
     }
     .cont2 h3{
         font-size:15px;
+    }
+
+    .cont2 video{
+        width:90%;
+        margin-bottom:10px;
     }
     
 }
@@ -206,6 +217,8 @@
         .words{
             margin-bottom:60px;
         }
+
+        
 }
 
 
