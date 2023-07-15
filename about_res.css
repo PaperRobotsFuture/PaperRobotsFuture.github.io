@@ -100,10 +100,11 @@
         }
         .text a{
             font-size:14px;
-            height:55px;
+            height:60px;
         }
         .contents h1{
-            font-size:32px
+            font-size:32px;
+            margin-bottom:60px;
         }
         .english{
             font-size:14px;
