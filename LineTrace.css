@@ -82,10 +82,12 @@ header{
 }
 .words p{
     color:rgb(255, 255, 255);
-    font-size:14px;
-    font-weight:normal;
     letter-spacing: 0.12em;
     width:80%;
+}
+
+.ab{
+    font-size:14px;
 }
 
 .words{
@@ -139,6 +141,8 @@ header{
     width:80%;
     color:white;
     margin-bottom:30px;
+}
+.bc{
     font-size:16px;
 }
 

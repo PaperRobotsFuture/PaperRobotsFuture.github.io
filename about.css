@@ -4,6 +4,8 @@
     width:100%;
     margin:auto;
 }
+
+
 header{
     padding-top:10px;
 }
@@ -67,14 +69,17 @@ header{
     margin-bottom:90px;
 }
 
-.words p{
-    color:rgb(55, 55, 55);
+.ab{
+    display: block;
     font-size:14px;
-    font-weight:bold;
+    font-weight:normal;
     letter-spacing: 0.12em;
-    width:85%;
+    width:70%;
     margin-bottom:40px;
+    color: rgb(55, 55, 55);
 }
+
+
 
 .b1 a {
     position: relative;
@@ -142,7 +147,3 @@ header{
         }
 
 
-
-span{
-    color:rgb(0, 0, 0);
-}

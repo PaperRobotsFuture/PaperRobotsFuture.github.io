@@ -64,31 +64,24 @@ header{
     color:rgb(55, 55, 55);
     font-weight: normal;
     font-size:40px;
+    margin-bottom:10px;
 }
 .english{
     color:rgb(55, 55, 55);
-    font-size:18px;
-    font-weight:bold;
+    font-size:16px;
     margin-top: 0px;
     margin-bottom:75px;
     letter-spacing: 0.1em;
+    font-weight: bold;
 }
 .words p{
     color:rgb(55, 55, 55);
+    font-size:14px;
     letter-spacing: 0.12em;
-    width:85%;
+    width:70%;
+    margin-bottom:30px;
 }
-.above{
-    margin-bottom:0px;
-    font-size:14px;
-    width:85%;
-}
-.bottom{
-    margin-top:0px;
-    font-size:14px;
-    margin-bottom:35px;
-    width:85%;
-}
+
 .b1 a {
     position: relative;
     display: inline-block;
@@ -131,7 +124,7 @@ header{
         margin-bottom:120px;
         font-weight:bold;
         padding-left:10px;
-        width:230px;
+        width:150px;
     }
     
     
