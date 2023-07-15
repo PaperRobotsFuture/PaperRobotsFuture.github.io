@@ -102,7 +102,7 @@
             height:55px;
         }
         .contents h1{
-            font-size:32px
+            font-size:28px
         }
         .english{
             font-size:13px;
@@ -141,10 +141,10 @@
         height:55px;
     }
     .contents h1{
-        font-size:32px
+        font-size:24px
     }
     .english{
-        font-size:13px;
+        font-size:12px;
     }
     .words p{
         font-size:12px;
